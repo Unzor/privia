@@ -1,2 +1,2 @@
-# priva
+# privia
 Make HTTP requests with a randomized, spoofed IP address.
