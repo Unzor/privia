@@ -89,7 +89,9 @@ function ipMethod(e) {
         })
     })
 }
-method("get"), method("post"), method("put"), method("delete"), ipMethod("get"), ipMethod("post"), ipMethod("put"), ipMethod("delete");
+
+method("get"), method("post"), method("options"), method("put"), method("patch"), method("delete"), method("head"), ipMethod("get"), ipMethod("post"), ipMethod("options"), ipMethod("put"), ipMethod("patch"), ipMethod("delete"), ipMethod("head");
+
 const PORT = process.env.PORT || 3e3;
 app.listen(PORT, () => {
     console.log(`Our app is running on port ${PORT}`)
